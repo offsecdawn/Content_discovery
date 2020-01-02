@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "This program has been developed to identify the URLS which are returning response code such as 200,301,302,403"
+echo "This program has been developed to identify the URLS which are returning response code such as 200,301,302,403.The file should have https:// in it."
 if [ -z "$1" ];
 then
 echo "Please provide httprobe file name to this script"
